@@ -664,7 +664,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <span>${dateStr}</span>
             </div>
             <div class="history-controls">
-              <audio class="history-audio" controls src="/outputs/${output.path}"></audio>
+              <audio class="history-audio" controls preload="metadata" src="/outputs/${output.path}"></audio>
               <a href="/outputs/${output.path}" download class="btn-icon" title="Download">⬇</a>
             </div>
           `;
