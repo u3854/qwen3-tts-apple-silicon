@@ -1,3 +1,11 @@
+# Run Server
+```
+python app.py
+```
+or
+```
+uv run app.py
+```
 # Qwen3-TTS for Mac - Run AI Text-to-Speech Locally on Apple Silicon
 
 Run **Qwen3-TTS** text-to-speech AI locally on your MacBook with Apple Silicon (M1, M2, M3, M4). No cloud, no API keys, completely offline.
